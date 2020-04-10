@@ -1,7 +1,7 @@
 # APIcommunicateiondocumentation# Table of Content
-1. [Conventions to define the API endpoints](Conventions-to-define-the-API-endpoints)
-2. [JSON Format for Response API](Json-Format-For-Response-Api)
-2. [JSON Format for Meta Data API](json-format-for-meta-data-api)
+1. [Conventions to define the API endpoints](#Conventions-to-define-the-API-endpoints)
+2. [JSON Format for Response API](#Json-Format-For-Response-Api)
+2. [JSON Format for Meta Data API](#json-format-for-meta-data-api)
 
 # Conventions to define the API endpoints
 Every endpoint will define 2 mandatory and one optional end point for each API.
