@@ -1,16 +1,27 @@
 # Table of Content
 1. [Conventions to define the API endpoints](#Conventions-to-define-the-API-endpoints)
+    
+    1.1 [Data End Point](#Data-End-Point)
+    
+    1.2 [Meta Data End Point](#Meta-Data-End-Point)
+
+    1.3 [Properties End Point](#Properties-End-Point)
+
+
 2. [JSON Format for Response API](#Json-Format-For-Response-Api)
 2. [JSON Format for Meta Data API](#json-format-for-meta-data-api)
 
 # Conventions to define the API endpoints
 Every endpoint will define 2 mandatory and one optional end point for each API.
 
-    1. The first end point will have a unique PATH (e.g. http://www.example.com/JDA/v1/exceptions). This end point will responsible to return the data associated with this API
+## Data End Point
+The first end point will have a unique PATH (e.g. http://www.example.com/JDA/v1/exceptions). This end point will responsible to return the data associated with this API
     
-    2. The second end point will have the unique PATH suffixed with /metadata (e.g. http://www.example.com/JDA/v1/exceptions/metadata). This end point will be responsible to provide the meta data information associated with this API
-    
-    3. The third end point is optional and will have the unique PATH suffixed with /properties (e.g. http://www.example.com/JDA/v1/exceptions/properties).
+## Meta Data End point
+The second end point will have the unique PATH suffixed with /metadata (e.g. http://www.example.com/JDA/v1/exceptions/metadata). This end point will be responsible to provide the meta data information associated with this API
+
+## Properties End Point    
+The third end point is optional and will have the unique PATH suffixed with /properties (e.g. http://www.example.com/JDA/v1/exceptions/properties).
 
 # JSON Format for Response API
 
@@ -184,3 +195,5 @@ Define a sequence number that defines the relative order of this field
 #### `data.headers.default.isGroupBy` : boolean
 
 Define if the grouping should be performed based on this field
+
+# 
